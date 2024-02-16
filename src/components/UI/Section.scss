@@ -1,0 +1,103 @@
+@use '../../assets/scss/core/variables' as var;
+
+@mixin section-theme ($bg-color, $frame-color, $icon-color) {
+    background-color: $bg-color;
+
+    .row {
+        align-items: stretch;
+    }
+
+    .info-container {
+        height: 100%;
+        min-height: 300px;
+        position: relative;
+        margin-top: 3rem;
+        display: flex;
+        align-items: center;
+        padding: 2rem 3rem;
+
+        &::before {
+            content: ' ';
+            position: absolute;
+            top: 0;
+            left: 0;
+            mask: url('../../assets/imgs/icon_frame_left_corner.svg') no-repeat 0 0/150px 150px;
+            -webkit-mask: url('../../assets/imgs/icon_frame_left_corner.svg') no-repeat 0 0/150px 150px;
+            background-color: $frame-color;
+            width: 150px;
+            height: 150px;
+        }
+
+        &::after {
+            content: ' ';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            mask: url('../../assets/imgs/icon_frame_right_corner.svg') no-repeat 0 0/150px 150px;
+            -webkit-mask: url('../../assets/imgs/icon_frame_right_corner.svg') no-repeat 0 0/150px 150px;
+            background-color: $frame-color;
+            width: 150px;
+            height: 150px;
+        }
+
+        .icon-lotus-flower {
+            display: block;
+            mask: url('../../assets/imgs/icon_lotus_flower.svg') no-repeat 0 0/104px 60px;
+            -webkit-mask: url('../../assets/imgs/icon_lotus_flower.svg') no-repeat 0 0/104px 60px;
+            background-color: $icon-color;
+            width: 104px;
+            height: 60px;
+            margin: 0 auto;
+        }
+    }
+}
+
+section.sc {
+    padding-top: 6.75rem;
+    padding-bottom: 6.75rem;
+}
+
+section.sc-primary {
+    @include section-theme(var.$color-background-primary, var.$color-orange, var.$color-orange);
+}
+
+section.sc-secondary {
+    @include section-theme(var.$color-background-secondary, var.$color-blue, var.$color-blue);
+}
+
+.fade-in {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 992px){
+    section.sc {
+        padding-top: 8.75rem;
+        padding-bottom: 8.75rem;
+    }
+
+    section.sc-primary, section.sc-secondary {
+        .info-container {
+            margin-top: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+
+            .icon-lotus-flower {
+                mask-size: 124px 80px;
+                -webkit-mask-size: 124px 80px;
+                width: 124px;
+                height: 80px;
+            }
+        }
+    }
+}

@@ -1,0 +1,66 @@
+@use '../../assets/scss/core/variables' as var;
+
+.card {
+    background-color: var.$color-background-white;
+    min-width: 360px;
+    height: 100%;
+    padding: 37px 43.5px;
+    text-align: center;
+    scroll-snap-align: start;
+    margin-right: 2rem;
+
+    img {
+        width: 152px;
+        height: 152px;
+        display: inline-block;
+    }
+
+    .card-img-text {
+        margin-top: 35px;
+        display: block;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    .card-body  {
+        margin-top: 25px; 
+        text-align: center;
+
+        h3.card-title {
+            color: var.$color-text-dark;
+        }
+
+        ul.card-list {
+            margin-top: 20px;
+            text-align: left;
+
+            > li.card-item {
+                display: flex;
+                margin-bottom: 5px;
+
+                .card-item-bullet {
+                    color: var.$color-text-dark;
+                    font-size: 40px;
+                    line-height: 16px;
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        
+    }
+}
+
+@media (min-width: 992px){
+
+    .card {
+        width: 360px;
+    }
+}
+
+@media (min-width: 1200px){
+
+    .card {
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,32 @@
+@use 'variables' as var;
+
+button.button, a.button {
+    cursor: pointer;
+    padding: 13px 19px;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+
+/*button.button-light, a.button-light {
+    background-color: var.$color-bg-button-light;
+    color: var.$color-text-button-light;
+    border: solid 2px var.$color-border-button-light;
+}
+
+button.button-light:hover, button.button-light:active, a.button-light:hover, a.button-light:active {
+    background-color: var.$color-bg-hover-button-light;
+    color: var.$color-text-hover-button-light;
+    border: solid 2px var.$color-border-hover-button-light;
+}*/
+
+button.button-dark, a.button-dark {
+    background-color: var.$color-bg-button-dark;
+    color: var.$color-text-button-dark;
+    border: solid 2px var.$color-border-button-dark;
+}
+
+button.button-dark:hover, button.button-dark:active, a.button-dark:hover, a.button-dark:active {
+    background-color: var.$color-bg-hover-button-dark;
+    color: var.$color-text-hover-button-dark;
+    border: solid 2px var.$color-border-hover-button-dark;
+}

@@ -1,0 +1,78 @@
+
+    /*COLOR PALLETE*/
+    /*main color palette*/
+    $color-white: rgb(255, 255, 255);
+    $color-gray: rgb(84, 101, 100); //gray
+    $color-black: rgb(0, 0, 0);
+
+    $color-blue: rgba(16, 79, 126, 1); //navy blue
+    $color-light-blue: rgb(202, 224, 241); //light blue
+    $color-lighter-blue: rgb(242, 252, 255); //lighter blue
+    $color-blue-opacity-4: rgba(16, 79, 126, 0.4); //blue transparent
+
+    $color-orange: rgb(201, 146, 77); //orange
+    $color-light-orange: rgb(232, 203, 169); //light orange
+    $color-lighter-orange: rgb(255, 249, 242); //lighter orange
+    $color-pink-opacity-4: rgba(230, 132, 181, 0.4); //pink transparent
+
+     //gradient colors
+     $color-gradient-1: rgba(114, 223, 219, 0.65);
+     $color-gradient-2: rgba(183, 201, 225, 0.68);
+     $color-gradient-3:rgba(217, 196, 166, 0.73);
+     $color-gradient-4:rgba(217, 166, 176, 0.6);
+  
+    /*$color-gradient-1: rgba(114, 223, 219, 1);
+    $color-gradient-2: rgba(183, 201, 225, 1);
+    $color-gradient-3:rgba(217, 196, 166, 1);
+    $color-gradient-4:rgba(217, 166, 176, 1);
+    $color-background-multicolor: linear-gradient(135deg,  $color-gradient-1 0%,  $color-gradient-2 33%,  $color-gradient-3 66%,  $color-gradient-4 100%);*/
+
+
+    /*backgrounds*/
+    $color-background-white: $color-white;
+    $color-background-gray: $color-gray;
+    $color-background-primary: $color-lighter-orange;
+    $color-background-secondary: $color-lighter-blue;
+    $color-background-multicolor: linear-gradient(135deg,  $color-gradient-1 0%,  $color-gradient-2 33%,  $color-gradient-3 66%,  $color-gradient-4 100%);
+
+    /*shadows and borders*/
+    $color-border-light: $color-white;
+    $color-border-dark: $color-blue;
+    $color-border-gray: $color-gray;
+    $color-black-opacity-10: rgba(0, 0, 0, 0.1);
+    $color-white-opacity-60: rgba(255, 255, 255, 0.60);
+    $color-white-opacity-10: rgba(255, 255, 255, 0.10);
+
+
+    /*text*/
+    $color-text-default: $color-gray;
+    $color-text-light: $color-white;
+    $color-text-dark: $color-blue;
+
+    /*navbar */
+    $color-text-navbar: $color-text-dark;
+
+    /*footer*/
+    $color-bg-footer:  $color-background-multicolor;
+    $color-text-footer: $color-text-dark;
+
+    /*input text*/
+    $color-border-input: $color-border-dark;
+    $color-text-input: $color-text-default;
+
+    /*dark link*/
+    $color-link-dark: $color-text-dark;
+    $color-hover-link-dark: $color-text-default;
+
+    /*dark button*/
+    $color-bg-button-dark: $color-blue;
+    $color-text-button-dark: $color-text-light;
+    $color-border-button-dark: $color-border-dark;
+
+    $color-bg-hover-button-dark: $color-white;
+    $color-text-hover-button-dark: $color-text-dark;
+    $color-border-hover-button-dark: $color-border-dark;
+
+    /*FONTS*/
+    $font-family-primary: 'Montserrat', sans-serif;
+    $font-family-secondary: 'Droid Serif', serif;

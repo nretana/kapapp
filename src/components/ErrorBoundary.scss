@@ -1,0 +1,20 @@
+@use '../assets/scss/core/variables' as var;
+
+.error-content {
+    background-image: var.$color-background-multicolor;
+    background-repeat: no-repeat;
+    background-color:  var.$color-background-secondary;
+    color:  var.$color-text-light;
+    height: 100vh;
+    min-height: 768px;
+    position: relative;
+
+    .container {
+        position: relative;
+        
+        .hero-content {
+            margin-top: 30vh;
+            text-align: center;
+        }
+    }
+}

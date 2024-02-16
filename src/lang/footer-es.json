@@ -1,0 +1,15 @@
+{
+    "pageTitle": "footer",
+    "pageLabels": {
+        "footerSectionServicesTitle": "Servicios",
+        "footerSectionCompanyTitle": "Quienes Somos",
+        "footerSectionMoreInformationTitle": "Información",
+        "footerHomeLink": "Inicio",
+        "footerKapLink": "KAP",
+        "footerAboutUsLink": "Nosotros",
+        "footerContactLink": "Contacto",
+        "footerBookingLink": "Reserva Ahora",
+        "footerResourcesLink": "Recursos",
+        "footerPrivacyPolicyLink": "Política de privacidad"
+    }
+}

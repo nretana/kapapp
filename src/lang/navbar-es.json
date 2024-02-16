@@ -1,0 +1,10 @@
+{
+    "pageTitle": "navbar",
+    "pageLabels": {
+        "navbarHomeLink": "Inicio",
+        "navbarKapLink": "KAP",
+        "navbarAboutUsLink": "Nosotros",
+        "navbarContactLink": "Contacto",
+        "navbarBookingButton": "Reserva Ahora"
+    }
+}

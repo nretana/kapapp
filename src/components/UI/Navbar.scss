@@ -1,0 +1,49 @@
+@use '../../assets/scss/core/variables' as var;
+
+nav.navbar {
+    padding-block: 1rem;
+    color: var.$color-text-navbar;
+
+    .nav-item {
+        padding: 1rem 0;
+
+        &:last-of-type {
+            padding-right: 0 !important;
+        }
+
+        a {
+            text-transform: uppercase;
+        }
+    }
+
+    .navbar-toggler {
+        border-color: var.$color-border-dark;
+        border-width: 2px;
+        padding-block: 0.5rem;
+        border-radius: 0;
+
+        .navbar-toggler-icon {
+            background-image: none;
+            -webkit-mask: url('../../assets/imgs/icon_burger.svg') no-repeat 100% 100%;
+            mask: url('../../assets/imgs/icon_burger.svg') no-repeat 100% 100%;
+            background-color:  var.$color-text-dark;
+            display: inline-block;
+            vertical-align: middle;
+            width: 31px;
+            height: 23px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    nav.navbar {
+    
+        .navbar-nav{
+            align-items: center;
+
+            .nav-item {
+                padding: 1rem 1.5rem;
+            }
+        }
+    }
+}

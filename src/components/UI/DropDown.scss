@@ -1,0 +1,78 @@
+@use '../../assets/scss/core/variables' as var;
+
+.dropdown {
+    position: relative;
+
+    .dropdown-button {
+        padding: 13px 19px;
+        border-radius: 0;
+        background-color: var.$color-bg-button-dark;
+        color: var.$color-text-button-dark;
+        border: solid 2px var.$color-border-button-dark;
+        text-transform: uppercase;
+        letter-spacing: 0.15rem;
+        &:before {
+            content: '';
+            width: 18px;
+            height: 18px;
+            margin-right: 0.5rem;
+            vertical-align: middle;
+            display: inline-block;
+            background: url('../../assets/imgs/icon_world.svg') no-repeat;
+        }
+
+        &:after {
+            content: '';
+            width: 19px;
+            height: 12px;
+            margin-left: 0.75rem;
+            vertical-align: middle;
+            display: inline-block;
+            background: url('../../assets/imgs/icon_arrow_down.svg') no-repeat;
+        }
+    }
+    
+    .dropdown-menu {
+        position: absolute;
+        top: 54px;
+        left: 0;
+        padding-top: 1rem 2rem;
+        border: solid 2px var.$color-border-button-dark;
+
+        .dropdown-item {
+            display: flex;
+            padding: 1rem 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15rem;
+            position: relative;
+            background-color:  var.$color-white-opacity-10;
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+            
+            > * {
+                pointer-events: none;
+            }
+
+            .icon-us-flag {
+                display: inline-block;
+                width: 44px;
+                height: 23px;
+                background: url('../../assets/imgs/icon_us_flag.svg') no-repeat;
+                background-size: cover;
+            }
+
+            .icon-cr-flag {
+                display: inline-block;
+                width: 44px;
+                height: 27px;
+                background: url('../../assets/imgs/icon_cr_flag.svg') no-repeat;
+                background-size: cover;
+            }
+
+            &:hover {
+                cursor: pointer;
+                background-color: var.$color-blue-opacity-4;
+            }
+        }
+    }
+}

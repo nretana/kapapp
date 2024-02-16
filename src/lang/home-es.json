@@ -1,0 +1,169 @@
+{
+    "pageTitle": "home",
+    "pageLabels": {
+        "homeHeroSection": {
+            "homeHeaderTitle": "Kundalini Activation Process",
+            "homeHeaderSubtitle": "Activa tu potencial dentro de ti y libera, expande y abre tu corazón a tu propia divinidad",
+            "homeHeaderButton": "Explorar"
+        },
+        
+        "homeKapStatementSection": {
+            "homeKapStatement": "KAP es una transmisión de la no dualidad y la energía Kundalini",
+            "homeKapStatementImgDescription": "Mujer durante una sesión de KAP"
+        },
+        
+        "homeKapSessionSection": {
+            "homeKapSessionTitlte": "Estás listo para activar tu potencial dentro de ti?",
+            "homeKapSessionDescription1": "Libera, expande y abre tu corazón a tu propia divinidad.",
+            "homeKapSessionDescription2": "El objetivo principal de esta práctica es expandir tu conciencia, sin embargo es común que se manifiesten efectos secundarios en las primeras sesiones como los son la reducción de niveles de estrés, empoderamiento y bienestar general.",
+            "homeKapSessionButton": "Conocer Más",
+            "homeKapSessionImgDescription": "Hombre durante una sesión de KAP"
+        },
+        
+        "homeKapFacilitatorSection": {
+            "homeKapFacilitatorTitle": "Facilitador Certificado en KAP",
+            "homeKapFacilitatorDescription1": "Profesional facilitador acreditado para guiarte y darte apoyo durante tu proceso.",
+            "homeKapFacilitatorDescription2": "La misión del facilitador es trabajar como un medio energético hacia el empoderamiento y transformación de ti mismo.",
+            "homeKapFacilitatorButton": "Conocer Más",
+            "homeKapFacilitatorImgDescription": "Mujer durante una sesión de KAP"
+        },
+
+        "homeKapWorkplaceSection": {
+            "homeKapWorkplaceTitle": "Conoce Nuestro Espacio Sagrado",
+            "homeKapWorkplaceDescription1": "El estudio The Inner Fuel es un lugar lleno de amor.",
+            "homeKapWorkplaceDescription2": "La misión del estudio es cultivar un sentido de comunidad en donde cada participante del proceso de KAP se pueda sentir seguro(a) de explorar en plenitud su propia naturaleza en sus múltiples facetas sin importar cuán intensa sea la manifestación.",
+            "homeKapWorkplaceDescription3": "Este espacio íntimo es idóneo para aquellos quienes busquen entrar en comunión con su propia divinidad en un lugar seguro.",
+            "homeKapWorkplaceImgDescription": "Nuestro espacio sagrado"
+        },
+
+        "homeKapServiceSection": {
+            "homeKapServicesTitle": "Experiencias KAP",
+            "homeKapServiceList": [
+                {
+                    "name": "KAP En Persona",
+                    "imgText": "Energía",
+                    "imgName": "img_muladhara",
+                    "descriptionList": [
+                        {
+                            "item": "Sesiones grupales llamadas “Open Class”"
+                        },
+                        {
+                            "item": "Sesiones individuales Uno a Uno"
+                        },
+                        {
+                            "item": "Sesiones semi-privadas, abiertas a un núcleo cerrado (parejas, familia, amigos)"
+                        },
+                        {
+                            "item": "Experiencia de inmersión de día completo, solo por invitación"
+                        }
+                    ]
+                },
+                {
+                    "name": "KAP Virtual",
+                    "imgText": "Conexión",
+                    "imgName": "img_sahasrara",
+                    "descriptionList": [
+                        {
+                            "item": "Sesiones grupales llamadas “Open Class”"
+                        },
+                        {
+                            "item": "Sesiones individuales Uno a Uno"
+                        },
+                        {
+                            "item": "Sesiones semi-privadas, abiertas a un núcleo cerrado (parejas, familia, amigos)"
+                        }
+                    ]
+                },
+                {
+                    "name": "KAP Inmersivo",
+                    "imgText": "Curación",
+                    "imgName": "img_anahata",
+                    "descriptionList": [
+                        {
+                            "item": "Los retiros son llevados a cabo en USA y Costa Rica"
+                        },
+                        {
+                            "item": "Inmersiones de día completo o fin de semana"
+                        },
+                        {
+                            "item": "Retiros privados"
+                        },
+                        {
+                            "item": "Residencias personales"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        "homeKapTestimonialSection": {
+            "homeKapTestimonialTitle": "Testimonios",
+            "homeKapTestimonialImgDescription": "Mujer meditando",
+            "homeKapTestimonialList": [
+                {
+                    "name": "Nathalie",
+                    "location": "Países Bajos",
+                    "kapExperienceType": "KAP Virtual",
+                    "description": "El poder y la bondad de una sesión de KAP con Eugenia: Me movía a paso lento con brazos, espalda y cuello. Movimientos iniciados en el momento no por la mente. En algún momento pude sentir un dolor en toda la espalda, estiré la espalda y supe quedarme con ella hasta que desaparezca. Una experiencia intensa, un dolor conectado conmigo y con las generaciones femeninas que me precedieron, un dolor compartido. Ahora encontrando su momento para ser liberado. Me muevo más, satisfaciendo la necesidad de posturas de yoga que normalmente no practico, y marinando aún más en la energía Kundalini. Tan puro, tan amoroso.",
+                    "isActive": true
+                },
+                {
+                    "name": "Aline",
+                    "location": "San Diego, California",
+                    "kapExperienceType": "KAP En Persona",
+                    "description": "El trabajo de Eugenia es un regalo precioso y un KAP con ella es un regalo para el alma. Sostuvo a nuestro pequeño grupo con gracia y concentración total, permitiendo que la energía fluyera y menguara, subiera y bajara, se moviera y se quedara quieta. Estaba extasiado y entrenado, moviéndome a través de las emociones y su fisicalidad con una intensidad de poder que desafió mi mente lógica... y así permití que se expresara otra capa de sanación y despertara otro soplo de conciencia. Cambio de vida. Gracias Eugenia por tu coraje e integridad.",
+                    "isActive": false
+                }, 
+                {
+                    "name": "Hazel",
+                    "location": "Reino Unido",
+                    "kapExperienceType": "KAP Virtual",
+                    "description": "El trabajo de Eugenia es un regalo precioso y un KAP con ella es un regalo para el alma. Sostuvo a nuestro pequeño grupo con gracia y concentración total, permitiendo que la energía fluyera y menguara, subiera y bajara, se moviera y se quedara quieta. Estaba extasiado y entrenado, moviéndome a través de las emociones y su fisicalidad con una intensidad de poder que desafió mi mente lógica... y así permití que se expresara otra capa de sanación y despertara otro soplo de conciencia. Cambio de vida. Gracias Eugenia por tu coraje e integridad.",
+                    "isActive": false
+                },
+                {
+                    "name": "Lorelli",
+                    "location": "California",
+                    "kapExperienceType": "KAP Virtual",
+                    "description": "Tuve una sesión en línea, que funcionó muy bien ya que no vivo en la ciudad y estoy seguro de que muchas personas interesadas en esta práctica también viven lejos, por lo que de esta manera llega a más personas. Mi experiencia fue genial, difícil de describir, pero muy impresionante. La instructora Eugenia es increíble, muy paciente explicando todos los detalles sobre la sesión y qué esperar. ¡Lo recomiendo!",
+                    "isActive": false
+                },
+                {
+                    "name": "Therese",
+                    "location": "San Diego, California",
+                    "kapExperienceType": "KAP En Persona",
+                    "description": "Tuve el placer de una sesión de KAP con la encantadora Eugenia de Inner Fuel. Fue una experiencia maravillosa con mucha energía bloqueada y alguna vieja pena liberada. Eugenia es una facilitadora amable y completa y te sientes seguro respetado en la sesión. Noté efectos residuales en los días siguientes y recomiendo encarecidamente este proceso a todos. ¡Espero volver a tener esta experiencia!",
+                    "isActive": false
+                },
+                {
+                    "name": "Laura D",
+                    "location": "San Diego, California",
+                    "kapExperienceType": "KAP En Persona",
+                    "description": "La experiencia que encontré fue literalmente liberadora, desintoxicante de mi alma. Esta energía se apoderó de mi ser interior. Lloré y dejé salir todo lo que no me sirve. Entonces reconocí que soy más que mis pensamientos. He sido despertado a este secreto que tenemos dentro de nosotros. Después de mi sesión con Eugenia, he ido reconociendo realmente lo que es la vida. Lloré todo el camino a casa porque esto ha despertado mi alma y siempre estaré agradecida. Seguiré haciendo esta práctica porque una vez que te abres a tu alma y energía, no hay vuelta atrás. Eugenia ya vuelvo!!! ¡Quiero más!",
+                    "isActive": false
+                },
+                {
+                    "name": "Cristell Palma",
+                    "location": "San Diego, California",
+                    "kapExperienceType": "KAP En Persona",
+                    "description": "Una excelente experiencia! Desde que llegas sientes mucha armonía y paz en el lugar. Durante la sesión pude sentir como la energía se movía dentro de mí, llegó un momento donde pude sentir mucha paz. Sin duda lo recomiendo!",
+                    "isActive": false
+                }
+            ]
+        },
+
+        "homeKapMediaSection": {
+            "homeKapMediaTitle": "Video Más Reciente",
+            "homeKapMediaDescription1": "Mira nuestra más reciente producción de video donde Eugenia realizó una sesión de KAP en un área de playa apartada en la costa de California.",
+            "homeKapMediaDescription2": "También cuenta con un hermoso mandala de arena diseñado por Beacons Mandala.",
+            "homeKapMediaImgDescription": "Sesión de KAP en San Diego, California"
+        },
+
+        "homeKapSubscriptionSection": {
+            "homeKapSubscriptionTitle": "Suscríbete a Nuestro Boletín",
+            "homeKapSubscriptionDescription": "Recibe actualizaciones e invitaciones a nuestras sesiones de KAP y eventos especiales",
+            "homeKapSubscriptionInputPlaceholder": "Ingresa tu correo electrónico",
+            "homeKapSubscriptionButton": "Suscribirse"
+        }
+    }
+}

@@ -1,0 +1,64 @@
+/*the file path is relative to app.scss because core files are loaded inside of it*/
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat/montserrat-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/montserrat/montserrat-medium-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat/montserrat-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src:  url('../fonts/montserrat/montserrat-bold-webfont.woff2') format('woff2'),
+          url('../fonts/montserrat/montserrat-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Droid Serif';
+    src:  url('../fonts/droidserif/droidserif-regular-webfont-webfont.woff2') format('woff2'),
+          url('../fonts/droidserif/droidserif-regular-webfont-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Droid Serif';
+    src:  url('../fonts/droidserif/droidserif-italic-webfont-webfont.woff2') format('woff2'),
+          url('../fonts/droidserif/droidserif-italic-webfont-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Droid Serif';
+    src:  url('../fonts/droidserif/droidserif-bold-webfont-webfont.woff2') format('woff2'),
+          url('../fonts/droidserif/droidserif-bold-webfont-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Droid Serif';
+    src:  url('../fonts/droidserif/droidserif-bolditalic-webfont-webfont.woff2') format('woff2'),
+          url('../fonts/droidserif/droidserif-bolditalic-webfont-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+

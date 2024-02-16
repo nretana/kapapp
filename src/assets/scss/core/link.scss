@@ -1,0 +1,30 @@
+@use 'variables' as var;
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    color: var.$color-text-default;
+}
+
+a:hover, a:active {
+    color: var.$color-text-default;
+}
+
+a.link-dark {
+    color: var.$color-link-dark;
+}
+
+a.link-dark:hover, a.link-dark:active {
+    color: var.$color-hover-link-dark;
+}
+
+a.link-dark {
+    color: var.$color-link-dark;
+}
+
+a.link-dark:hover, a.link-dark:active {
+    color: var.$color-hover-link-dark;
+}
+

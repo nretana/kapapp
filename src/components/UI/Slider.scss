@@ -1,0 +1,156 @@
+@use '../../assets/scss/core/variables' as var;
+
+@mixin slider-button ($img-url) {
+    width: 3.75rem;
+    height: 3.75rem;
+    position: relative;
+    background-color: var.$color-bg-button-dark;
+    color: var.$color-text-button-dark;
+    border: solid 2px var.$color-border-button-dark;
+
+    &::before {
+        content: '';
+        position: absolute;
+        mask: url(#{$img-url}) no-repeat 100% 100%;
+        -webkit-mask: url(#{$img-url}) no-repeat 100% 100%;
+        width: 19.47px;
+        height: 30px;
+        top: 50%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        background-color: var.$color-text-button-dark;
+    }
+
+    &.disabled, &:disabled {
+        border-color: var.$color-border-gray;
+        background-color: var.$color-border-gray;
+        pointer-events: none;
+
+        &::before {
+            background-color: var.$color-text-button-dark;
+        }
+    }
+
+    &:hover, &:focus {
+        background-color: var.$color-bg-hover-button-dark;
+        color: var.$color-text-hover-button-dark;
+        border: solid 2px var.$color-border-hover-button-dark;
+
+        &::before {
+            background-color: var.$color-text-hover-button-dark;
+        }
+    }
+}
+
+@mixin slider-quote($img-url) {
+    background-image: url(#{$img-url});
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45.86px;
+    height: 39.31px;
+    display: block;
+}
+
+.slider {
+    display: flex;
+    background-color: var.$color-background-secondary;
+    height: 100%;
+    margin-top: 2rem;
+    padding: 1.25rem 1.25rem;
+    flex-direction: column;
+
+    .slider-content {
+        scroll-snap-type: x mandatory;
+        scroll-snap-align: start;
+        display: flex;
+        flex-grow: 1;
+        flex-wrap: nowrap;
+        align-items: stretch;
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+        &::-webkit-scrollbar { 
+            display: none;  /* Safari and Chrome */
+        }
+
+        .slider-item {
+            width: 100%;
+            min-width: 100%;
+            margin-right: 2rem;
+            position: relative;
+            scroll-snap-stop: always;
+            scroll-snap-align: start;
+    
+            .icon-quote-start {
+                @include slider-quote('../../assets/imgs/icon_quote_start.svg');
+            }
+    
+            .icon-quote-end {
+                @include slider-quote('../../assets/imgs/icon_quote_end.svg');
+                margin-left: auto;
+            }
+    
+            .testimonial-text {
+                font-family: var.$font-family-secondary;
+                font-size: 1.125rem;
+                line-height: 2.25rem;
+                font-style: italic;
+            }
+    
+            .testimonial-name {
+                font-family: var.$font-family-secondary;
+                font-size: 1.125rem;
+                line-height: 1.75rem;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .slider-controller {
+        display: none;
+        justify-content: center;
+        button.slider-button-prev {
+            @include slider-button('../../assets/imgs/icon_arrow_left.svg');
+        }
+
+        button.slider-button-next {
+            @include slider-button('../../assets/imgs/icon_arrow_right.svg');
+        }
+    }
+}
+
+@media (min-width: 768px){
+    .slider {
+        padding: 3.75rem 3.75rem;
+
+        .slider-content {
+           
+            .slider-item {
+
+                .icon-quote-start, .icon-quote-end {
+                    width: 64.17px;
+                    height: 55px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px){
+    
+    .slider {
+        margin-top: 0;
+        padding: 3.75rem 3.75rem;
+        
+        .slider-content {
+            overflow-x: hidden;
+        }
+
+        .slider-controller {
+            display: flex;
+        }
+    }
+}
