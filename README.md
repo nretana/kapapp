@@ -11,7 +11,6 @@ UI refresh for healing therapy website.
 
 <br />
 <div align="center">
-  <video controls src="mkd_assets/TheInnerFuelPreview.mp4" title="Website Preview" width="830"></video>
   <br />
 </div>
 
